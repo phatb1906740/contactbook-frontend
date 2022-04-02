@@ -48,7 +48,7 @@
 
             <router-link
                 :to="{
-                    name: '',
+                    name: 'EditContact',
                     params: { id: activeContact.id },
                 }"
             >
